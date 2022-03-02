@@ -8,8 +8,8 @@ const { Payouts } = require("@cashfreepayments/cashfree-sdk");
 // Instantiate Cashfree Payouts
 const payoutsInstance = new Payouts({
   env: "TEST",
-  clientId: "CF182797C8BHOLNGPCB67J9FRRHG",
-  clientSecret: "557d8d6994bb1327795bcf0feb1963482a3a9918",
+  clientId: "CF182797C8FFJG7GPCB67J9FRS1G",
+  clientSecret: "5f4603afa711484573b766ef5a6e20894e24b34c",
   pathToPublicKey: `./file.pem`,
 });
 console.log(payoutsInstance.beneficiary);
